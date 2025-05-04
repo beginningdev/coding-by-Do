@@ -22,6 +22,7 @@ void main() {
     // and prints the result to the console.
     // The program uses the return statement to exit the main function.
     // The program uses the getch function to wait for a key press before exiting.
+    // The program uses the clrscr function to clear the console screen.
     int a, b;
     printf("Enter two numbers: ");
     scanf("%d \n%d", &a, &b);
