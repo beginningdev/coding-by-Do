@@ -1,0 +1,5 @@
+overflow: hidden;                 /* Ẩn nội dung tràn */
+cursor: pointer;                  /* Đổi con trỏ chuột */
+box-shadow: 0 0 10px #aaa;        /* Đổ bóng */
+text-shadow: 2px 2px 5px #000;    /* Đổ bóng chữ */
+pointer-events: none;             /* Không cho tương tác */

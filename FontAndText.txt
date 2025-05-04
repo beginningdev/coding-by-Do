@@ -1,0 +1,11 @@
+font-family: 'Arial', sans-serif;  /* Chọn font chữ */
+font-size: 16px;                   /* Cỡ chữ */
+font-weight: bold;                 /* Độ đậm: normal, bold, 100-900 */
+font-style: italic;                /* Kiểu chữ: in nghiêng */
+line-height: 1.5;                  /* Khoảng cách giữa các dòng */
+letter-spacing: 1px;               /* Khoảng cách giữa các chữ */
+word-spacing: 5px;                 /* Khoảng cách giữa các từ */
+text-align: center;                /* Căn chữ: left, right, center, justify */
+text-decoration: underline;        /* Gạch dưới, hoặc none */
+text-transform: uppercase;         /* Viết hoa: uppercase, lowercase, capitalize */
+white-space: nowrap;               /* Không xuống dòng tự động */

@@ -1,0 +1,11 @@
+width: 200px;                      /* Chiều rộng */
+height: 100px;                     /* Chiều cao */
+max-width: 100%;                   /* Chiều rộng tối đa */
+min-height: 50px;                  /* Chiều cao tối thiểu */
+
+margin: 10px;                      /* Khoảng cách bên ngoài */
+padding: 20px;                     /* Khoảng cách bên trong */
+
+border: 1px solid #ccc;            /* Viền: độ dày, kiểu, màu */
+border-radius: 8px;                /* Bo góc viền */
+box-sizing: border-box;            /* Tính cả padding và border vào width/height */

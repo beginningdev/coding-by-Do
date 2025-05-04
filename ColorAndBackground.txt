@@ -1,0 +1,7 @@
+color: #333;                       /* Màu chữ */
+background-color: #f0f0f0;         /* Màu nền */
+background-image: url('img.jpg');  /* Ảnh nền */
+background-size: cover;            /* Căn chỉnh kích thước nền */
+background-repeat: no-repeat;      /* Không lặp ảnh nền */
+background-position: center;       /* Căn giữa ảnh nền */
+opacity: 0.8;                      /* Độ trong suốt (0-1) */

@@ -1,0 +1,12 @@
+display: block;                    /* Hiển thị dạng khối */
+display: inline;                   /* Hiển thị cùng dòng */
+display: flex;                     /* Sử dụng Flexbox */
+display: grid;                     /* Sử dụng Grid */
+visibility: hidden;                /* Ẩn nhưng vẫn chiếm chỗ */
+display: none;                     /* Ẩn và không chiếm chỗ */
+
+position: relative;                /* Vị trí tương đối */
+position: absolute;                /* Vị trí tuyệt đối */
+position: fixed;                   /* Cố định trên màn hình */
+top: 10px; left: 10px;             /* Dịch chuyển phần tử */
+z-index: 2;                        /* Thứ tự lớp (đè lên) */

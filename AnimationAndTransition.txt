@@ -1,0 +1,8 @@
+transition: all 0.3s ease-in-out; /* Chuyển đổi mượt */
+transform: rotate(45deg);         /* Xoay phần tử */
+animation: slidein 1s ease-in;    /* Áp dụng animation */
+
+@keyframes slidein {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}

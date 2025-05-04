@@ -1,0 +1,6 @@
+display: flex;                     /* Bật Flexbox */
+flex-direction: row;              /* Chiều: row (ngang), column (dọc) */
+justify-content: center;          /* Căn giữa theo chiều ngang */
+align-items: center;              /* Căn giữa theo chiều dọc */
+gap: 10px;                        /* Khoảng cách giữa các item */
+flex-wrap: wrap;                  /* Tự động xuống dòng */
