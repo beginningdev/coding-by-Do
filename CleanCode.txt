@@ -1,0 +1,9 @@
+| Quy tắc              | Mô tả ngắn                               |
+| -------------------- | ---------------------------------------- |
+| ✅ Tên rõ nghĩa       | Biến/hàm/class nói lên mục đích          |
+| ✅ Hàm ngắn           | Làm một việc, dễ hiểu                    |
+| ✅ Không lặp          | DRY – không lặp code                     |
+| ✅ Không để lại rác   | Xóa code chết, không để TODO mãi mãi     |
+| ✅ Tách biệt rõ ràng  | Theo module/chức năng                    |
+| ✅ Dễ đọc hơn dễ viết | Người khác dễ hiểu hơn là bạn viết nhanh |
+| ✅ Comment đúng lúc   | Không dùng comment thay cho đặt tên tốt  |
