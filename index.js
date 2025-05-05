@@ -1,13 +1,20 @@
-//hàm tính tổng các sóng trong mảng
-function sumArray(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    return sum;
+//Ham tính điểm trung bình của sinh viên
+function calculateAverageScore(student) {
+    var totalScore = student.mathScore + student.englishScore + student.literatureScore;
+    return totalScore / 3;
 }
-//mảng số ví dụ
-const numbers = [1, 2, 3, 4, 5];
-//Gọi hàm và in kết quả
-const result = sumArray(numbers);
-console.log("Tổng các số trong mảng là: " + result); // Kết quả: 15
+//Ham in ra thông tin sinh viên
+function displayStudentInfo(student) {
+    var averageScore = calculateAverageScore(student);
+    console.log("Student: ".concat(student.name));
+    console.log("Average Score: ".concat(averageScore.toFixed(2)));
+}
+//Tạo đối tượng sinh viên mẫu
+var theFirstPerson = {
+    name: "Alex",
+    mathScore: 8,
+    englishScore: 7.5,
+    literatureScore: 9
+};
+//Gọi hàm hiển thị kết quả
+displayStudentInfo(theFirstPerson);
