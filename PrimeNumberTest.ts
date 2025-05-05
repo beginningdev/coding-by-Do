@@ -6,6 +6,13 @@ function isPrime(num: number): boolean {
     return true;
 }
 
+// This function returns an array of divisors of a given number
+// It iterates from 1 to the number itself and checks if the number is divisible by each iterator
+// If it is, the iterator is added to the array of divisors
+// Finally, it returns the array of divisors
+// The time complexity of this function is O(n), where n is the input number
+// The space complexity is O(n) as well, since in the worst case, all numbers from 1 to n are divisors
+// The function is efficient for small numbers but may take longer for larger numbers
 function getDivisors(num: number): number[] {
     const divisors: number[] = [];
     for (let i = 1; i <= num; i++) {
