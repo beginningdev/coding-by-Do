@@ -1,0 +1,3 @@
+Hello, This is data!
+ My nam is Alex.
+This is my printed file
