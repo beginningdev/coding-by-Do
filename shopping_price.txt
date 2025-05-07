@@ -1,0 +1,10 @@
+Item 1: asdasd
+Price of item 1: 1.00 $
+Quantity of item 1: 1
+Item 2: sadasd
+Price of item 2: 1.00 $
+Quantity of item 2: 1
+Item 3: sadasdasd
+Price of item 3: 1.00 $
+Quantity of item 3: 1
+Total price: 3.00 $
