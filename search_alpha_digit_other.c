@@ -14,7 +14,7 @@ int main(){//Main function
             {letters++;}//letters++
         else if(isdigit(text[i]))//If text[i] is digit
             {digits++;}//digits++
-        else if(!isspace(text[i]))//If text[i] is not space
+        else if(!isspace(text[i]))//If text[i] is not space.
             {others++;}//others++
         }//end of for loop
         printf("Letters: %d\n", letters);//Print letters
