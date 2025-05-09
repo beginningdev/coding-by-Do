@@ -7,7 +7,7 @@ int main(){//Main function
     int digits = 0;//Declare digits
     int others = 0;//Declare others
     printf("Enter a string: ");//Print Enter a string
-    fgets(text, sizeof(text),stdin);//Get string from user
+    fgets(text, sizeof(text),stdin);//Get string from text [1000], it includes space,letter, digit, and other.Use fgets have text, sizeof(text),stdin
     for(int i =0; text[i] !='\0';i++){//For loop will rutn until text[i] is not equal to '\0' is null or end of srting
         //Check if text[i] is alphabet, digit or other
         if(isalpha(text[i]))//If text[i] is alphabet
