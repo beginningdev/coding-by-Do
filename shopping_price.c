@@ -10,7 +10,10 @@ struct shopping_price
 int main(){
     struct shopping_price item[10];//decalare array of structure
     int i,n;//decalare number of items
-    float total_price=0.0;
+    float total_price=0.0;//decalare total price
+    float discounted_occasion_price=0.0;//decalare discounted occasion price
+    float tax=0.0;//decalare tax
+    float total_price_after_discounted_occasion_and_tax=0.0;//decalare total price after discounted occasion and tax
     FILE *file;
     file = fopen("shopping_price.txt", "w");
     if (file == NULL) {
@@ -31,6 +34,13 @@ int main(){
         fprintf(file,"Quantity of item %d: %d\n", i+1, item[i].quantity);
         total_price += item[i].price * item[i].quantity;
     }
-    fprintf(file,"Total price: %.2f $\n", total_price);
+    printf("Enter the discounted occasion price: ");
+    scanf("%f",&discounted_occasion_price);
+    fprintf(file,"Discounted occasion price: %.2f $\n", discounted_occasion_price);
+    printf("Enter the tax: ");
+    scanf("%f",&tax);
+    fprintf(file,"Tax: %.2f $\n", tax);
+    total_price_after_discounted_occasion_and_tax = total_price - discounted_occasion_price + tax;
+    fprintf(file,"Total price after discounted occasion and tax: %.2f $\n", total_price_after_discounted_occasion_and_tax);
     fclose(file);
 }
