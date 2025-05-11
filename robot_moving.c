@@ -41,4 +41,4 @@ int main(){
 //To build this code, use the following command:
 // gcc robot_moving robot_moving.c -o main
 // To run the code, use the following command:
-// ./robot_moving
+// ./main
