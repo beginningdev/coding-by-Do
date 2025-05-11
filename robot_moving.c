@@ -37,3 +37,8 @@ int main(){
         sleep(1); //decalare sleep for 1 second
     }
 }
+
+//To build this code, use the following command:
+// gcc robot_moving robot_moving.c -o main
+// To run the code, use the following command:
+// ./robot_moving
