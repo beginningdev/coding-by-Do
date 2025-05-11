@@ -7,7 +7,7 @@
 
 //This is fuciton to check the distance
 int get_distance(){
-    return rand() % 100; //decalare random distance
+    return rand() % 100; //decalare random distance 0-100 meters
 }
 
 //This is function to execute the robot
